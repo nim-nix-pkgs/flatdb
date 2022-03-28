@@ -11,7 +11,6 @@
   inputs.src-flatdb-master.ref   = "refs/heads/master";
   inputs.src-flatdb-master.owner = "enthus1ast";
   inputs.src-flatdb-master.repo  = "flatdb";
-  inputs.src-flatdb-master.dir   = "";
   inputs.src-flatdb-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
